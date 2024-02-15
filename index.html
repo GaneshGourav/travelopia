@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>travelopia</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -16,16 +16,24 @@
         <div class="nav-content">
             <nav>
                 <ul class="menu">
-                    <li> <a href="#" onclick="activeLink(0)">Home</a> </li>
-                    <li><a href="#" onclick="activeLink(1)">About</a></li>
-                    <li><a href="#" onclick="activeLink(2)">Our Brands</a></li>
-                    <li><a href="#" onclick="activeLink(3)">Our Teams</a></li>
-                    <li><a href="#" onclick="activeLink(4)">Contact</a></li>
-
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Brands</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Teams</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
                 </ul>
             </nav>
         </div>
-
     </header>
     <main>
         <div class="main-content">
@@ -34,52 +42,22 @@
                     alt="content-image" />
             </div>
             <div class="overlay"></div>
-
             <div class="main-content-title">
                 <p>the world's leading collection of</p>
                 <h1 class="main-title-2">experiential travel brand</h1>
-                <button class="main-content-btn">
-                    Click Here
-                </button>
+                <button class="main-content-btn"> Click Here </button>
             </div>
         </div>
         <div class="alert">
             <div class="alert-popup">
-                <p>Hello, World</p>
+                <p>Hello World</p>
             </div>
         </div>
-
     </main>
-
     <footer class="footer">
         <p>Copyright © Travelopia 2024</p>
     </footer>
 </body>
-<script>
-    let alert = document.querySelector(".alert")
-    let btn = document.querySelector(".main-content-btn");
-    let menu = document.querySelector(".menu a")
-    btn.addEventListener("click", function () {
-        alert.style.display = "block";
-        btn.disabled = true;
-        btn.style.cursor = "not-allowed";
-        setTimeout(() => {
-            alert.style.display = "none";
-            btn.disabled = false;
-            btn.style.cursor = "pointer";
-        }, 3000);
-
-    })
-
-    function activeLink(index) {
-        let menu = document.querySelectorAll(".menu a")
-        menu.forEach(function (link) {
-            link.classList.remove('active');
-        });
-        menu[index].classList.add('active');
-
-    }
-
-</script>
+<script src="index.js"></script>
 
 </html>
