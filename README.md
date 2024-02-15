@@ -2,7 +2,7 @@
 Welcome to the Travelopia website repository! This project showcases a responsive and visually captivating website for Travelopia, a leading name in experiential travel brands. Built with HTML, CSS, and a touch of JavaScript, this website offers an immersive experience to users.
 
 ### Deployed Link:
-https://dulcet-sprinkles-41f2c2.netlify.app/
+https://resonant-macaron-bcc251.netlify.app/
 
 ## Features
 ### Dynamic Header:
@@ -17,7 +17,16 @@ The Travelopia website is designed with responsiveness in mind, ensuring an opti
 
 
 ## Snap shot:
-### large Screen / destop view:
+### Large Screen / destop view:
+![Hero](https://github.com/GaneshGourav/travelopia/assets/119353884/9339d3d1-19d2-47db-8a7b-80163f249100)
+
+
+### Large Screen / destop view With Alert Message:
+
+![heroImageWithAlert](https://github.com/GaneshGourav/travelopia/assets/119353884/d2553f57-3dce-44d3-aada-0f8e0a82a131)
+
+### Small Screen:
+![smallScreenView](https://github.com/GaneshGourav/travelopia/assets/119353884/354e9f26-e91a-436a-840b-3f80d6d9bb6f)
 
 
 ## Getting Started:
@@ -30,4 +39,7 @@ Open the index.html file in your preferred web browser to experience the Travelo
 ## Usage
 ### Interact with Content:
 Engage with the captivating main content section by clicking on the call-to-action button, which triggers an interactive popup alert.
+
+
+### Thank you!
 
