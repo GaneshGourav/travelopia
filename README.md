@@ -32,6 +32,7 @@ The Travelopia website is designed with responsiveness in mind, ensuring an opti
 ## Getting Started:
 ### Clone the Repository:
 Start by cloning this repository to your local machine using the following command:
+
 git clone https://github.com/GaneshGourav/travelopia.git
 ### View the Website:
 Open the index.html file in your preferred web browser to experience the Travelopia website firsthand.
