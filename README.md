@@ -2,7 +2,7 @@
 Welcome to the Travelopia website repository! This project showcases a responsive and visually captivating website for Travelopia, a leading name in experiential travel brands. Built with HTML, CSS, and a touch of JavaScript, this website offers an immersive experience to users.
 
 ### Deployed Link:
-https://dulcet-sprinkles-41f2c2.netlify.app/
+https://resonant-macaron-bcc251.netlify.app/
 
 ## Features
 ### Dynamic Header:
